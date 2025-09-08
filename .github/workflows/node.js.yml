@@ -33,5 +33,7 @@ jobs:
       run: pnpm install
     - name: Build project
       run: pnpm run build
-    - name: Lint project
-      run: pnpm lint
+    - name: Setup Biome
+      uses: biomejs/setup-biome@v2
+    - name: Run Biome
+      run: biome ci .
