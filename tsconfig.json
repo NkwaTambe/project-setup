@@ -1,7 +1,8 @@
 {
 	"files": [],
 	"references": [
-		{ "path": "./tsconfig.app.json" },
-		{ "path": "./tsconfig.node.json" }
+		{ "path": "packages/account-manager-app" },
+		{ "path": "packages/branchmanager-app" },
+		{ "path": "packages/cashier-app" }
 	]
 }
